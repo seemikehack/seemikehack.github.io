@@ -17,11 +17,12 @@ h2 {
 }
 
 h3 {
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 footer {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
+    color: #333;
 }
 
 .service {
@@ -62,11 +63,22 @@ footer {
 }
 
 @media screen and (min-width: 78em) {
+    body {
+        margin: 0 3.6rem;
+    }
     h1 {
         font-size: 5.6rem;
     }
     h2 {
         font-size: 2rem;
+        margin-top: 4rem;
+    }
+    h3 {
+        font-size: 1.6rem;
+        margin-top: 3rem;
+    }
+    footer {
+        font-size: 1rem;
     }
     .service,
     .service .service-separator {
